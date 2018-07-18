@@ -1,6 +1,8 @@
 $color-blue-one: #5496e6;
 $color-blue-two: #518bde;
 
+$color-gray-one: #444;
+
 .grid {
   height: 100vh;
   width: 100vw;
@@ -17,7 +19,7 @@ $color-blue-two: #518bde;
 
     font-size: 18px;
     color: white;
-    font-family: 'Montserrat', sans-serif;
+    // font-family: 'Montserrat', sans-serif;
     line-height: 22px;
     padding: 55px 75px;
   }

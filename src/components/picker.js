@@ -3,8 +3,10 @@ import React, { Component } from 'react';
 import DatePicker from 'react-datepicker';
 import moment from 'moment';
 
-class Picker extends Component {
+import 'react-datepicker/dist/react-datepicker.css';
 
+class Picker extends Component {
+  
   constructor (props) {
     super(props)
     this.state = {
@@ -30,7 +32,7 @@ class Picker extends Component {
       </div>
     );
   }
-  
+
 }
 
 export default Picker;
