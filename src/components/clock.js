@@ -3,7 +3,7 @@ import React, { Component } from 'react'
 class Clock extends Component {
   render() {
     return (
-      <div classname="clock">
+      <div className="clock">
         <div className="clock__days">
           <label className="clock__title">DAYS</label>
           <label className="clock__amount">20</label>
