@@ -7,8 +7,8 @@ import 'react-datepicker/dist/react-datepicker.css';
 
 class Picker extends Component {
   
-  constructor (props) {
-    super (props)
+  constructor(props) {
+    super(props)
     this.state = {
       startDate: moment()
     };
@@ -16,9 +16,11 @@ class Picker extends Component {
   }
  
   handleChange(date) {
+    console.log('trying to chage date for', date._d);
     this.setState({
       startDate: date
     });
+    this.props.callback(date)
   }
 
   render() {
