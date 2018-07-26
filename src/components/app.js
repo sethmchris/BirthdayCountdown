@@ -73,7 +73,7 @@ handleGenerate = function() {
   this.timer = setInterval(function() {
 
     // Get todays date and time
-    var now = new Date().getTime();
+    var now = moment().toDate().getTime();
       
     // Find the distance between now an the count down date
     var distance = countDownDate - now;
