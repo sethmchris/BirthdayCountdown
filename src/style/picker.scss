@@ -2,14 +2,14 @@
   grid-column: 5/9;
   grid-row: 2/3;
   justify-self: center;
-  align-self: end;
+  align-self: ender;
   // background: cornflowerblue;
   
   padding-bottom: 50px;
   input {
     font-size:  80px;
     font-family: 'Roboto Condensed', sans-serif;
-    font-weight: 700;
+    font-weight: bold;
     
     color: $color-gray-one;
     text-align: center;
